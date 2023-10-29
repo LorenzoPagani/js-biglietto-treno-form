@@ -1,0 +1,13 @@
+body {
+    background-color: #B91450;
+}
+
+.form-label  {
+    color: #B91450;
+}
+
+.input-bar {
+    border: #B91450  2px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
