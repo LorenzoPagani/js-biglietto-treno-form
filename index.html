@@ -23,24 +23,28 @@
               BIGLIETTO </h2>
           </div>
         </div>
-        <div class="row">
+        <div class="row bg-white rounded-2 shadow">
           <div class="col-12">
-            <form class="bg-white p-3" id="mioForm">
+            <form class="p-3" id="mioForm">
               <div class="row">
                 <div class="col-12 d-flex justify-content-around">
                   <div>
-                    <label class="form-label d-block text-center" for="passengerName">Nome
+                    <label class="form-label d-block text-center"
+                      for="passengerName">Nome
                       e cognome</label>
-                    <input class="input-bar" type="text" id="passengerName" name="input1">
+                    <input class="input-bar" type="text" id="passengerName"
+                      name="input1" placeholder="Mario Rossi">
                   </div>
 
                   <div>
-                    <label class="form-label d-block text-center" for="distance">Distanza
+                    <label class="form-label d-block text-center" for="distance">Km
                       da percorrere</label>
-                    <input  class="input-bar" type="number" id="distance" name="input2">
+                    <input class="input-bar" type="number" id="distance"
+                      name="input2" value="100">
                   </div>
                   <div>
-                    <label class="form-label d-block text-center" for="ageGroup"> La tua
+                    <label class="form-label d-block text-center" for="ageGroup">
+                      La tua
                       età</label>
                     <select class="input-bar" name="age_group" id="ageGroup">
                       <option value="maggiorenne">maggiorenne</option>
@@ -64,14 +68,18 @@
           <div class="col-12 py-2">
             <h2 class="text-center text-white">IL TUO BIGLIETTO</h2>
           </div>
-          <div class="col-12 px-0">
+        </div>
+        <div class="row bg-white">
+          <div class="col-12 py-2">
             <h4>DETTAGLIO PASSEGGERI</h4>
           </div>
+        </div>  
+        <div class="row bg-white border border-secondary border-end-0">
           <div class="col-3 bg-secondary p-3">
             <h5>NOME PASSEGGERO</h5>
-            <p id="outputName" class="mt-4">pippo </p>
+            <p id="outputName" class="mt-4"> </p>
           </div>
-          <div class="col-9 d-flex justify-content-between bg-primary p-3">
+          <div class="col-9 d-flex justify-content-between p-3">
             <div>
               <h5>Offerta</h5>
               <p id="ageOffer" class="mt-5">biglietto standard</p>
@@ -86,10 +94,11 @@
             </div>
             <div>
               <h5>Costo biglietto</h5>
-              <p id="ticketOutput" class="mt-5">x</p>
+              <p id="ticketOutput" class="mt-5">-</p>
             </div>
           </div>
         </div>
+        
       </div>
     </main>
     <script
